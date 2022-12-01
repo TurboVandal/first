@@ -37,6 +37,10 @@ body {
   padding-right: 1ch;
 }
 
+.center {
+  text-align: center;
+}
+
 .buttons {
   margin-top: 2ch;
 }
