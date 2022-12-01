@@ -47,9 +47,6 @@ body {
   margin-top: 2ch;
 }
 
-h2 {
-}
-
 .button {
   display: flex;
   align-items: center;
@@ -60,12 +57,17 @@ h2 {
 }
 
 .but-yes {
-  min-width: 20vw;
+  max-width: 250px;
+  min-width: 100px;
   padding-left: 1ch;
   padding-right: 1ch;
   background-color: black;
   border: solid 1px #ff4b00;
   color: rgba(255, 75, 0, 1);
+}
+
+.but-yes p {
+  text-align: center;
 }
 
 .but-yes:active {
