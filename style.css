@@ -27,6 +27,8 @@ body {
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+
+  font-weight: 700;
 }
 
 .scene-text {
