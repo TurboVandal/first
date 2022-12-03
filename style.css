@@ -33,7 +33,7 @@
 
 .waveDepth span {
   width: 30px;
-  font-size: 5ch;
+  font-size: 4ch;
   animation: depth 2s ease-in-out alternate infinite;
   position: relative;
   display: inline-block;
