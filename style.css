@@ -36,9 +36,13 @@
   font-size: 4ch;
   animation: depth 2s ease-in-out alternate infinite;
   position: relative;
-  display: inline-block;
-  font-variation-settings: "EDPT" 30;
+  font-variation-settings: "EDPT" 50;
   font-palette: --Main;
+}
+
+.small-head span {
+  font-size: 2ch !important;
+  width: 20px !important;
 }
 
 .waveDepth span:nth-child(0) {
@@ -90,7 +94,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vw;
+  width: 70vw;
 }
 
 .grad-text {
